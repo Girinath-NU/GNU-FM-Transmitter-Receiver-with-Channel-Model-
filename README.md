@@ -1,6 +1,6 @@
-# 🎙️ FM Transmitter & Receiver with Channel Model (GNU Radio)
+# FM Transmitter & Receiver with Channel Model (GNU Radio)
 
-## 📌 Overview
+## Overview
 This project demonstrates a **complete FM communication system** built in GNU Radio.  
 It includes:
 
@@ -13,7 +13,7 @@ This design is ideal for **education, experimentation, and extension to SDR hard
 
 ---
 
-## 🖼️ Flowgraph
+## Flowgraph
 ![Full Flowgraph](images/full_flowgraph.png)
 
 The system has three main sections:
@@ -23,7 +23,7 @@ The system has three main sections:
 
 ---
 
-## ⚙️ Block-by-Block Explanation
+## Block-by-Block Explanation
 
 ### 🔹 1. Sources
 
@@ -115,7 +115,7 @@ This is a **classic FM broadcast technique**.
 
 ---
 
-## 📊 Observations
+## Observations
 
 1. **Noise Voltage = 0** → clear audio.  
 2. **Increasing Noise Voltage** → static/distorted audio.  
@@ -124,7 +124,7 @@ This is a **classic FM broadcast technique**.
 
 ---
 
-## 🚀 Applications
+## Applications
 - Teaching tool for **digital communications & modulation**.  
 - Testing FM receiver resilience against noise/fading.  
 - Simulation of real-world wireless channels.  
